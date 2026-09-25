@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="kk">
 <head>
@@ -6,145 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Portfolio</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f5;
-            color: #222;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #263f35;
-            color: white;
-            padding: 20px;
-        }
-
-        nav {
-            max-width: 1000px;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            max-width: 1000px;
-            margin: auto;
-            padding: 80px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .hero h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            max-width: 600px;
-            margin-bottom: 20px;
-        }
-
-        button {
-            padding: 12px 22px;
-            border: none;
-            border-radius: 8px;
-            background: #315c45;
-            color: white;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background: #1f4531;
-        }
-
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 50px 20px;
-        }
-
-        section h2 {
-            margin-bottom: 20px;
-            color: #263f35;
-        }
-
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px #00000015;
-        }
-
-        .card h3 {
-            margin-bottom: 10px;
-            color: #315c45;
-        }
-
-        #message {
-            margin-top: 15px;
-            font-weight: bold;
-        }
-
-        footer {
-            background: #263f35;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-
-        @media (max-width: 600px) {
-            nav {
-                flex-direction: column;
-                gap: 15px;
-            }
-
-            nav a {
-                margin: 0 7px;
-            }
-
-            .hero {
-                flex-direction: column;
-                text-align: center;
-                padding: 60px 20px;
-            }
-
-            .hero h1 {
-                font-size: 32px;
-            }
-
-            .skills {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -166,6 +27,7 @@
         <section class="hero">
             <div>
                 <h1>Web & IT Portfolio</h1>
+
                 <p>
                     Бағдарламалау және веб-технологиялар саласында
                     білім алып, практикалық жобалармен жұмыс істейтін студент.
@@ -211,7 +73,9 @@
 
         <section id="contact">
             <h2>Байланыс</h2>
-            <p>IT жобалар мен веб-технологиялар бойынша байланысуға болады.</p>
+            <p>
+                IT жобалар мен веб-технологиялар бойынша байланысуға болады.
+            </p>
         </section>
 
     </main>
@@ -220,14 +84,10 @@
         <p>© 2026 IT Portfolio</p>
     </footer>
 
-    <script>
-        const button = document.getElementById("myButton");
-        const message = document.getElementById("message");
+    <script src="script.js"></script>
 
-        button.addEventListener("click", function() {
-            message.textContent = "Бұл сайт HTML, CSS және JavaScript көмегімен жасалды!";
-        });
-    </script>
+</body>
+</html>
 
 </body>
 </html>
