@@ -1,2 +1,2 @@
 # CPC
-https://tillabekbayan-sys.github.io/-/
+https://tillabekbayan-sys.github.io/CPC/
